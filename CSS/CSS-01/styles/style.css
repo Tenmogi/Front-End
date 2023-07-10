@@ -1,0 +1,13 @@
+h1 {
+  color: red;
+  border: 2px solid blue;
+  background-color: yellow;
+  font-family: verdana;
+}
+p strong {
+  background-color: khaki;
+  color: green;  
+  text-decoration: underline;
+  color: red;
+}
+

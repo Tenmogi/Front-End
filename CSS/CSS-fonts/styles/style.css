@@ -1,0 +1,26 @@
+h1{
+    font-family: 'Tahoma';
+    font-weight: normal;
+    font-variant: small-caps;
+    color: blueviolet;
+
+}
+/* THIS IS THE ID STARTS WITH # */
+#Red1{
+    color: red;
+}
+/* THIS IS THE CLASS STARTS WITH . */
+.green1{
+    color:greenyellow;
+}
+p{
+    font-style: italic;
+    font-size: 25px;
+}
+span{
+    font-weight: bold;
+    color: yellowgreen;
+}
+h4{
+    font: bold 12pt arial;
+}

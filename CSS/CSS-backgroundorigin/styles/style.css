@@ -1,0 +1,15 @@
+body{
+    background: aliceblue;
+}
+div{
+    background-color: white;
+    padding: 25px;
+    width: 900px;
+    height: 750px;
+    border: 20px dashed black;
+    background-image: url(/CSS/CSS-backgroundorigin/study.jpg) ;
+    background-origin: padding-box;
+    background-origin: content-box;
+    background-repeat: no-repeat;
+    background-origin: border-box;
+}

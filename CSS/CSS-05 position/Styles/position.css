@@ -1,0 +1,13 @@
+.jaune {
+    position: absolute;
+    top: 1em;
+    right: 1em;
+    width: 4em;
+    background-color: #ffff00;}
+    .verte{ 
+        /* padding-top: 5em; */
+        padding-right: 7em;
+ position: relative; 
+background-color: #00ff00; 
+ width: 15em; 
+    }

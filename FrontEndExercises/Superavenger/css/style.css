@@ -1,0 +1,80 @@
+body{
+    background-image: url(../img/fond.png);
+}
+main{
+    background-color: white;
+}
+
+/* header details */
+header{
+    overflow: auto;
+    background-color: #F9E78E;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}  
+/* header image floating */
+header img{
+    
+    float: left;
+   
+}
+/* header navigation menu */
+header nav{
+   
+    display: flex;
+    justify-content: center;
+    gap: 10px; 
+    
+}
+/* header navigation links */
+header nav a{
+    margin:0 10px; 
+    text-decoration: none;
+    font-size: 16px;
+    color: #E0A01F;
+        
+}
+
+/* container width and image given */
+.container{
+    width: 750px;
+    justify-content: center;
+    /* background-image: url("../img/fond.png"); */
+    /* background-repeat: no repeat; */
+    /* background-size: cover; */
+    padding: 10px;
+    margin: 0 auto;
+}
+article{
+    overflow: hidden;
+}
+article h2{
+    margin-bottom: 10px; 
+    font-size: 24px;
+    color:#E09F1B;
+        
+}
+article img{
+    float: left;
+    margin-right:20px;
+    
+}
+article a{
+    float: right; 
+    font-size: 16px;
+}
+main a{
+    background-color: #E09F1B;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 4px;
+    color: white;
+    
+}
+footer{
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+    }

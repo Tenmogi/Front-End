@@ -1,6 +1,12 @@
+
+/* *
+{
+    margin: 0;
+    padding: 0;
+} */
 body{
     background-image: url(../img/fond.png);
-}
+} 
 main{
     background-color: white;
 }
@@ -12,11 +18,14 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 10px;
 }  
 /* header image floating */
 header img{
     
     float: left;
+    margin-right: 10px;
+    width: 200px;
    
 }
 /* header navigation menu */
@@ -25,6 +34,8 @@ header nav{
     display: flex;
     justify-content: center;
     gap: 10px; 
+    font-family: 'Oswald', sans-serif;
+    
     
 }
 /* header navigation links */
@@ -38,8 +49,8 @@ header nav a{
 
 /* container width and image given */
 .container{
-    width: 750px;
-    justify-content: center;
+    max-width: 750px;
+    /* justify-content: center; */
     /* background-image: url("../img/fond.png"); */
     /* background-repeat: no repeat; */
     /* background-size: cover; */
@@ -48,21 +59,33 @@ header nav a{
 }
 article{
     overflow: hidden;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 article h2{
     margin-bottom: 10px; 
     font-size: 24px;
     color:#E09F1B;
+    font-family: 'Oswald', sans-serif;
         
 }
 article img{
     float: left;
     margin-right:20px;
+    width: 250px;
+    height: 300px;
+    /* Make images inside articles responsive */
+    max-width: 100%;
+    height:auto; 
+    
     
 }
 article a{
     float: right; 
     font-size: 16px;
+    padding: 5%;
+     margin: 10px; 
+    /* border: 20px solid;  */
 }
 main a{
     background-color: #E09F1B;
@@ -78,3 +101,56 @@ footer{
   justify-content: center;
   padding: 10px;
     }
+    p{
+        font-size: 16px;
+        line-height: 1.6;
+    }
+    h2{
+        font-size: 24px;
+    }
+
+    @media screen and (max-width: 750px) 
+    {
+        /* Align the header item vertically */
+        header{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        /* Reduce the size of the logo */
+        header img{
+            width: 100px;
+        }
+        /* Center align the navigation links */
+        nav{
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+
+        }
+        /* Remove the floating for the images in the articles */
+        article img{
+            float: none;
+            margin-right: 0;
+            /* Make images inside articles responsive */
+            max-width: 100%;
+            height: auto;
+        }
+        /* center align the lire plus link in article */
+        article a{
+            display: block;
+            text-align: center;
+        }
+        p{
+            font-size: 14px;
+            line-height: 1.5;
+        }
+        h2{
+            font-size: 20px;
+        }
+
+        }
+        
+
+        
+    

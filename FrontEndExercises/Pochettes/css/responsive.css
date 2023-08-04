@@ -1,0 +1,388 @@
+
+@media screen and (max-width: 992px) 
+/* medium */
+{
+  #artisteimage
+  {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    /* grid-template-rows: 25% 25%; */
+    padding: 20px;
+    margin: 0 auto;
+  }
+  #centerheader p
+  {
+    
+    align-items: center;
+    margin-top: 5%;
+    margin-bottom: 0;
+  }
+
+  #centerheader input
+  {
+    width: 150%;
+    margin: 20px 0;
+  }
+
+  #rightheader input 
+  {
+margin-top: 0;
+  }
+}
+
+@media screen and (max-width: 768px) 
+/* small */
+{
+
+  #header{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+#arrowbutton
+{
+  width: 100%;
+  align-self: center;
+  /* margin-right: 1em; */
+  margin-left: 4.5em; 
+  margin-right: 6em; 
+}
+
+#musicbutton
+{
+  width: 100%;
+  align-self: center;
+  margin-right: 1em;
+}
+
+#musicbutton input
+
+{
+width: 80px;
+margin-right: 1em;
+margin-left: 1em;
+padding-top: 5px;
+} 
+
+#arrowbutton bottom
+{
+width: 10em;
+}
+
+.class button-bottom
+{
+width: 100%;
+
+}
+
+/* #sample
+{
+
+  display: flex;
+  justify-content: space-evenly;
+} */
+
+/* #groupe
+{
+  justify-content: space-evenly;
+  padding: 0%;
+} */
+.button-top
+  {
+    
+    font-size: 24px;
+    /* padding: 2px 30px 2px 30px; */
+    padding: 0 30px;
+    margin: 5px 0; 
+     
+    }
+
+  .button-bottom
+  {
+    
+    font-size: 24px;
+    /* padding: 2px 30px 2px 30px; */
+    padding: 0 30px;
+    
+    margin: 5px 0; 
+     
+   }
+   #centerheader p
+  {
+    
+    align-items: center;
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+
+  .center-column{
+    display: flex;
+    flex-direction: row;
+     align-items: center;
+     width: 100%;
+  }
+
+  .center-column p
+  {
+margin: 0;
+margin-right: 10px;
+  }
+  
+  #leftheader #buttonheader
+  {
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+  }
+  #centerheader
+  {
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+margin-top: 10px;
+  }
+
+  #centerheader input
+  {
+    width: 200%;
+    margin: 20px 0;
+  }
+
+  #buttonheader, #buttonlower #centerheader #rightheader
+  {
+    display: flex;
+    flex-direction: column;
+    }
+
+  #centerheader, #rightheader
+  {
+    flex-direction: row;
+    width: 100%;
+  }
+
+  #volume{
+    width: 100%;
+    margin: 0;
+  }
+
+  #rightheader input{
+    width: auto;
+    /* flex: 0; */
+    margin: 0;
+    padding: 10px; 
+  }
+
+  #rightheader button
+  {
+    padding: 10px;
+  }
+  
+#centerheader #rightheader
+{
+  
+    flex-direction:row;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 10px;
+} 
+
+#artisteimage
+  {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 25% 25%;
+    padding: 20px;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 576px) 
+/* extra small */
+{
+    /* Align the header item vertically */
+
+    .container
+
+    {
+      /* max-width: auto; */
+      max-width: 100%;
+      padding: 0;
+      margin: 0;
+    }
+    #leftheader
+    {
+      display: flex;
+      flex-direction: column;
+    }
+
+   #arrowbutton{
+    width: 100%;
+    align-self: center;
+    margin-left: 5em;
+   }
+
+   #arrowbutton button
+   {
+    width: 10em;
+   }
+
+   #musicbutton{
+    width: 100%;
+    align-self: center;
+   
+    
+   }
+   #musicbutton input
+   {
+    width: 25%;
+    margin-right: 5em;
+    margin-left: 2em;
+   }
+
+   
+  #header{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #mainsection
+  { 
+    display: flex;
+    flex-direction: column;
+  }
+/* center the pharagraph in centerheader */
+  #centerheader p
+  {
+    
+    align-items: center;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  /* update button headre to full width */
+  #leftheader
+  {
+    /* align-items: flex-end; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 10px;
+    
+  }
+  #leftheader #buttonheader
+  {
+    /* width: auto; */
+    width: 100%;
+    display: flex;
+    justify-content: column;
+    align-items: center;
+    padding: 10px;
+  }
+  #centerheader
+  {
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+margin-top: 10px;
+  }
+
+  .button-top
+  {
+    
+    font-size: 24px;
+    padding: 2px 30px 2px 30px;
+    margin: 5px 0; 
+     
+    /* margin-bottom: 10px; */
+  }
+
+  .button-bottom
+  {
+    font-size: 24px;
+    padding: 2px 30px 2px 30px; 
+    margin: 5px 0;
+  }
+.button-bottom input[type=range]
+{
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+   #volume
+  {
+    width: 400%;
+    margin: 10px 0;
+  }
+  .center-column{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 400vw;
+  }
+#arrowbutton, #musicbutton
+{
+  display: flex;
+  align-items: flex-start;
+  
+}
+
+  .center-column p
+  {
+    margin: 0;
+      }
+
+      #centerheader input
+      {
+        width: 360%;
+        margin: 20px 0;
+      }
+
+  #rightheader input{
+    width: 100%;
+    margin: 0;
+    padding: 10px;
+  }
+
+  #rightheader button
+  {
+    padding: 10px;
+  }
+  
+#choicemenu
+  {
+     width: 92%;
+  }
+
+
+  #artisteimage
+  {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 25% 25% 25% 25%;
+    padding: 0px;
+    margin: 0 auto; 
+
+    /* display: flex; 
+    /* display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 50% 50%; */
+    /* flex-wrap: wrap; 
+    justify-content: center; 
+    gap: 0px; 
+    padding: 10px;  */
+  }
+/* #artisteimage img
+{
+  width: 87%;
+} */
+  
+} 

@@ -1,0 +1,52 @@
+html, body {
+	margin:0;
+	padding:0;
+}
+
+main {
+	margin-left:auto;
+	margin-right:auto;
+	width:80%;
+}
+
+
+/* flottants */
+/*#left {
+	background-color:red;
+	width:50%;
+	float:left;
+}
+#right {
+	background-color:green;
+	width:50%;
+	float:left;
+}*/
+
+/* flexbox */
+/*#form {
+	display:flex;
+}
+
+#left {
+	background-color:red;
+	flex:1;
+}
+#right {
+	background-color:green;
+	flex:1;
+}*/
+
+/* grid */
+#form {
+	display:grid;
+	grid-template-columns: auto auto;
+}
+
+#left {
+	background-color:red;
+	
+}
+#right {
+	background-color:green;
+	
+}

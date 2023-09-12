@@ -1,0 +1,234 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Geneva', sans-serif;
+}
+ .top
+{
+    background-image: linear-gradient(rgba(12,3,51,0.3), rgba(12,3,51,0.3));
+    /* background-repeat:no-repeat; */
+    /* background-size: cover; */
+    position: relative;
+     padding: 0 5%; 
+     height: 100vh;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+
+} 
+
+.back-video
+{
+   position: absolute; 
+   right: 0;
+   bottom: 0;
+   z-index: -1;
+} 
+
+
+/* nav{ 
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 20px 8%;
+    
+}
+nav.logo{
+    width: 20px;
+
+}
+ul{
+    list-style: none;
+}
+ul li
+{
+display: inline-block;
+position: relative;
+}
+ul li a{
+    display: block;
+    padding: 20px 25px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+}
+ul li ul.dropdown-content li
+{
+    display: block;
+}
+ul li ul.dropdown-content
+{
+    width: 100%;
+    position: absolute;
+    z-index: 999;
+    display: none;
+}
+
+ul li:hover ul.dropdown-content{
+    display: block;
+} 
+
+@media (min-aspect-ratio: 16/9)
+{
+    .back-video{
+        width:100%;
+        height: auto;
+    }
+}
+@media (max-aspect-ratio: 16/9)
+{
+    .back-video{
+        width:auto;
+        height: 100%;
+    }
+} */
+
+/* main{
+    background-color: white;
+} */
+
+/* header details 
+header{
+    overflow: auto;
+    background-color: #F9E78E;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}  
+/* header image floating 
+header img{
+    
+    float: left;
+    margin-right: 10px;
+    width: 200px;
+   
+}
+/* header navigation menu 
+header nav{
+   
+    display: flex;
+    justify-content: center;
+    gap: 10px; 
+    font-family: 'Oswald', sans-serif;
+    
+    
+}
+/* header navigation links 
+header nav a{
+    margin:0 10px; 
+    text-decoration: none;
+    font-size: 16px;
+    color: #E0A01F;
+        
+}
+
+/* container width and image given 
+.container{
+    max-width: 750px;
+    /* justify-content: center; */
+    /* background-image: url("../img/fond.png"); */
+    /* background-repeat: no repeat; */
+    /* background-size: cover; 
+    padding: 10px;
+    margin: 0 auto;
+}
+article{
+    overflow: hidden;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+article h2{
+    margin-bottom: 10px; 
+    font-size: 24px;
+    color:#E09F1B;
+    font-family: 'Oswald', sans-serif;
+        
+}
+article img{
+    float: left;
+    margin-right:20px;
+    width: 250px;
+    height: 300px;
+    /* Make images inside articles responsive 
+    max-width: 100%;
+    height:auto; 
+    
+    
+}
+article a{
+    float: right; 
+    font-size: 16px;
+    padding: 5%;
+     margin: 10px; 
+    /* border: 20px solid;  
+}
+main a{
+    background-color: #E09F1B;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 4px;
+    color: white;
+    
+}
+footer{
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+    }
+    p{
+        font-size: 16px;
+        line-height: 1.6;
+    }
+    h2{
+        font-size: 24px;
+    }
+
+    @media screen and (max-width: 750px) 
+    {
+        /* Align the header item vertically 
+        header{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        /* Reduce the size of the logo 
+        header img{
+            width: 100px;
+        }
+        /* Center align the navigation links 
+        nav{
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+
+        }
+        /* Remove the floating for the images in the articles 
+        article img{
+            float: none;
+            margin-right: 0;
+            /* Make images inside articles responsive 
+            max-width: 100%;
+            height: auto;
+        
+        /* center align the lire plus link in article 
+        article a{
+            display: block;
+            text-align: center;
+        }
+        p{
+            font-size: 14px;
+            line-height: 1.5;
+        }
+        h2{
+            font-size: 20px;
+        }
+
+        }
+        
+
+        
+    
